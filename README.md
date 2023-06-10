@@ -17,7 +17,7 @@
 
 1. 下载安卓固件（参考<a href="https://github.com/ophub/amlogic-s9xxx-armbian/issues/1332">这里</a>）
 2. USB Burning Tool刷入安卓固件（还是参考<a href="https://github.com/ophub/amlogic-s9xxx-armbian/issues/1332">这里</a>）
-3. 下载<a href="https://pan.baidu.com/s/1tIvqGiyrn0u7QTlNm9juvg?pwd=nnkj">armbian</a>固件
+3. 下载armbian<a href="https://pan.baidu.com/s/1tIvqGiyrn0u7QTlNm9juvg?pwd=nnkj">固件</a>
 4. 用<a href="https://github.com/pbatard/rufus/releases/tag/v4.1">Rufus</a>将armbian固件写入U盘或TF卡，安卓操作U盘开机，开机时要尽快将U盘或TF卡接上接口
 5. 在路由器中找到分配到的动态IP，SSH登录后运行armbian-install以写入emmc，Device ID选122、Filesystem选ext4
 6. 依照屏幕提示关机、拿掉U盘或TF卡，即可从emmc开机和运行
